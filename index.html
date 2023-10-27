@@ -2,21 +2,28 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Clock App</title>
-      <script src="app.js" defer></script>
+      <title>Stopwatch</title>
+      <script src="app.js"></script>
+      <link rel="stylesheet" href="style.css" />
    </head>
    <body>
-      <div id="clock-container">
-         <div id="top-container">
-            <div class="timer-wrap">TIMER</div>
-            <div class="stopwatch-wrap">STOPWATCH</div>
-         </div>
-         <div id="counter-wrap">
-            <button class="btn" id="btn">Countdown</button>
-            <input id="input" type="number" placeholder="0" min="0" />mins
-            <p id="output">0m 0s</p>
+      <div class="container">
+         <div class="container-wrap">
+            <h1>Stopwatch</h1>
+            <p class="time">
+               <span id="minutes">00</span>:<span id="seconds">00</span>:<span
+                  id="tens"
+                  >00</span
+               >
+            </p>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
          </div>
       </div>
    </body>
+
+   <script></script>
 </html>
